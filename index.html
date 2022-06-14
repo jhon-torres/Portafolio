@@ -38,7 +38,6 @@
                     </ul>
                 </div>
             </div>
-            </div>
         </nav>
     </header>
 
@@ -57,19 +56,19 @@
             <div class="card">
                 <h4>Mantenimientos</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim quam rhoncus vitae neque nunc, natoque donec aenean. Nunc ipsum lorem blandit diam feugiat. Consectetur ultrices eget id commodo id pretium nisl quisque. Vestibulum habitasse adipiscing eget nisl, ut. Et fames eget consequat in gravida. </p>
-                <img src="/img/img_mant.png">
+                <img src="/img/img_mant.png" alt="imagen de mantenimiento">
                 <a href="#">Ver más ...</a>
             </div>
             <div class="card">
                 <h4>Diseño</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim quam rhoncus vitae neque nunc, natoque donec aenean. Nunc ipsum lorem blandit diam feugiat. Consectetur ultrices eget id commodo id pretium nisl quisque. Vestibulum habitasse adipiscing eget nisl, ut. Et fames eget consequat in gravida. </p>
-                <img src="/img/img_disenio.png">
+                <img src="/img/img_disenio.png" alt="imagen de diseño">
                 <a href="#">Ver más ...</a>
             </div>
             <div class="card">
                 <h4>Software</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim quam rhoncus vitae neque nunc, natoque donec aenean. Nunc ipsum lorem blandit diam feugiat. Consectetur ultrices eget id commodo id pretium nisl quisque. Vestibulum habitasse adipiscing eget nisl, ut. Et fames eget consequat in gravida. </p>
-                <img src="/img/img_software.png">
+                <img src="/img/img_software.png" alt="imagen de software">
                 <a href="#">Ver más ...</a>
             </div>
         </div>
@@ -163,14 +162,17 @@
             <h2>Contactar</h2>
             <form>
                 <label for="nombre">
-                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required autocomplete="on"/>
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required autocomplete="on"/>
+                </label>
                 <label for="apellido">
-                <input type="text" id="apellido" name="apellido" placeholder="Apellido" required autocomplete="on"/>
-                <label for="correo">
-                <input type="text" id="correo" name="correo" placeholder="Correo electrónico" required autocomplete="email"/>
-                <label for="descripcion">
-                <input type="text" id="correo" name="correo" placeholder="Correo electrónico" required autocomplete="email"/>
-                <textarea name="descripcion" maxlength="150" placeholder="Descripción"></textarea>
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellido" required autocomplete="on"/>
+                </label>
+                <label>
+                    <input type="text" id="correo" name="correo" placeholder="Correo electrónico" required autocomplete="email"/>
+                </label>
+                <label>
+                    <textarea name="descripcion" maxlength="150" placeholder="Descripción"></textarea>
+                </label>
                 <input type="submit" value="Enviar" />
             </form>
         </div>
